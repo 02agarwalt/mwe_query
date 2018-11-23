@@ -1,0 +1,1 @@
+qsub -S /bin/bash -V -cwd -o ~/mwe_query/test.log.o -e ~/mwe_query/test.log.e -l 'mem_free=10G,ram_free=10G' test.sh
